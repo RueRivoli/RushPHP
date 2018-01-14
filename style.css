@@ -1,0 +1,155 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    background: #c94d14;
+    height: 20vh;
+    text-align:center;
+}
+
+.rect
+{
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+h1{
+    font-size: 0.7vw;
+}
+
+h2{
+    font-size: 0.6vw;
+}
+.research
+{
+    margin-top: 10vh;
+    margin-left: 21vh;
+    width: 50vw;
+}
+
+.research input
+{
+    width: 50%;
+}
+
+.bigtitle
+{
+    font-size : 5vh;
+    font-family: Bradley Hand, cursive;
+    width: 30vw;
+    margin-top: 7vh;
+}
+
+
+.bigtitle img
+{
+    height:8vh;
+    width:4vw;
+}
+
+.element
+{
+    border:3px double #9d28ba;
+    color:white;
+    width: 10%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.element:hover
+{
+    color: #4c4847;
+    background-color: #aeb8ba;
+}
+
+.header2
+{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #4c4847;
+}
+
+footer
+{
+    border-top :3px double #9d28ba;
+    background-color: #c07fd1;
+    height: 20vh;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #aeb8ba;
+    margin-right: 0px;
+    height: auto;
+    width: 80%;
+}
+
+.article img
+{
+    height:20vh;
+    width:6vw; 
+}
+.article
+{
+    margin-top: 1vh;
+    width: 20%;
+    text-align: center;
+}
+nav{
+    width: 20%;
+    border-right : 2px groove #9d28ba;
+    background-color: #aeb8ba;
+	height: auto;
+   
+}
+
+#conteneur
+{
+    display: flex;
+}
+.welcome
+{
+	margin-top: 7vh;
+	font-size: 3vh;
+	font-family: Bradley Hand, cursive;
+}
+
+.deconnection
+{
+	margin-top: 8vh;
+}
+
+.deconnection button
+{
+	width: 7vw;
+}
+
+.wide
+{
+	width:100%;
+}
+
+.align
+{
+	text-align:center;
+}
+
+.count button
+{
+	width: 7vw;
+}
+
+button:hover
+{
+	color: red;
+	background-color: rgb(58, 22, 141);
+}
